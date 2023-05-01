@@ -1,18 +1,16 @@
 <script locals>
   module.exports = {
     pages: {
-      "/": "Home",
-      "/sibling": "Page (sibling)",
-      "/page": "Page (index)",
-      "/page/sibling": "Subpage (sibling)",
-      "/page/subpage": "Subpage (index)",
+      "/": "Is AGI here Yet?",
+      "/iterative": "Iterative Prompt Refining",
+      // "/hack": "Hack AI",
     },
   };
 </script>
-<nav class="container mx-auto p-10">
-  <ul class="flex">
+<nav>
+  <ul>
     <each loop="value, key in pages">
-      <li class="mr-6">
+      <li>
         <if condition="active === key">
           <strong class="text-blue-500">{{ value }}</strong>
         </if>
