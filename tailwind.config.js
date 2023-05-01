@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./site/**/*.{html,js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      transitionProperty: {
+        sizes: "font-size, margin, padding",
+      },
+    },
   },
   plugins: [],
 };
