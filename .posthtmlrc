@@ -1,0 +1,14 @@
+{
+  "plugins": {
+    "posthtml-expressions": {
+      "removeScriptLocals": true
+    },
+    "posthtml-modules": {
+      "root": ".",
+      "attributeAsLocals": true,
+      "expressions": {
+        "removeScriptLocals": true
+      }
+    }
+  }
+}
