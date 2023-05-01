@@ -2,8 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  @apply min-h-full;
+}
+
 body {
-  @apply flex flex-col text-slate-800;
+  @apply flex flex-col min-h-full text-slate-800;
   @apply bg-no-repeat bg-gradient-to-br from-slate-50 to-slate-300;
 }
 
@@ -11,7 +15,9 @@ body {
   @apply px-5 py-10 mx-auto w-full max-w-[600px];
 }
 
-.ai-can, .ai-maybe, .ai-cant {
+.ai-can,
+.ai-maybe,
+.ai-cant {
   @apply transition-sizes text-lg mb-3 sm:text-xl sm:mb-4;
   display: flex;
 
@@ -31,7 +37,7 @@ body {
 
 .ai-maybe:before {
   @apply bg-amber-500;
-  background-image: none; 
+  background-image: none;
   color: #fff;
   content: "~";
   line-height: 1;
