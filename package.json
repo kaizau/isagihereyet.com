@@ -9,7 +9,7 @@
   },
   "repository": "",
   "private": true,
-  "browserslist": "defaults, not IE 11",
+  "browserslist": "defaults",
   "scripts": {
     "start": "PORT=8888 npm run parcel",
     "netlify": "PORT=8887 netlify dev",

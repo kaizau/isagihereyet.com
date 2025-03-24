@@ -5,10 +5,6 @@
 ];
 
 @theme {
-  --scale-200: 2;
-  --scale-300: 3;
-  --scale-400: 4;
-  --scale-500: 5;
   --transition-property-sizes: font-size, margin, padding;
 }
 
